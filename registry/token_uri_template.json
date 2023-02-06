@@ -1,0 +1,19 @@
+{
+  "name": "Token Name",
+  "description": "Token description.",
+  "image": "[REQUIRED] Token Image URI",
+  "attributes": [
+    {
+      "trait_type": "Some attribute of token.",
+      "value": "attribute value"
+    },
+    {
+      "trait_type": "xxx",
+      "value": "xxx"
+    },
+    {
+      "trait_type": "xxx",
+      "value": "xxx"
+    }
+  ]
+}

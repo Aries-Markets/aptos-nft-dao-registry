@@ -1,0 +1,19 @@
+{
+  "name": "Collection Name",
+  "description": "Collection description.",
+  "image": "[REQUIRED] Collection Image(or Logo)",
+  "attributes": [
+    {
+      "trait_type": "Some attribute of token collection.",
+      "value": "xxx"
+    },
+    {
+      "trait_type": "xxx",
+      "value": "xxx"
+    },
+    {
+      "trait_type": "xxx",
+      "value": "xxx"
+    }
+  ]
+}

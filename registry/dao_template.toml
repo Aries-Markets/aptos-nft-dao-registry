@@ -1,11 +1,8 @@
 [governance]
 address = "0xf1702eb3bcd85119d75a9f36e2b307d3e1b3a048768ede1b278f343b93b0dd8c"
 description = "Testing DAO of aries."
-logo-url = ""
 creator-nickname = ""
-
-[token]
-logo-url = ""
+logo-url = "DAO governance logo url."
 
 [links]
 dao-homepage = ""
