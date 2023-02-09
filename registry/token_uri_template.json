@@ -1,19 +1,37 @@
 {
-  "name": "Token Name",
-  "description": "Token description.",
-  "image": "[REQUIRED] Token Image URI",
+  "image": "https://www.arweave.net/abcd5678?ext=png",
+  "animation_url": "https://www.arweave.net/efgh1234?ext=mp4",
+  "external_url": "https://petra.app/",
   "attributes": [
     {
-      "trait_type": "Some attribute of token.",
-      "value": "attribute value"
+      "trait_type": "web",
+      "value": "yes"
     },
     {
-      "trait_type": "xxx",
-      "value": "xxx"
+      "trait_type": "mobile",
+      "value": "yes"
     },
     {
-      "trait_type": "xxx",
-      "value": "xxx"
+      "trait_type": "extension",
+      "value": "yes"
     }
-  ]
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://www.arweave.net/abcd5678?ext=png",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://watch.videodelivery.net/9876jkl",
+        "type": "unknown",
+        "cdn": true
+      },
+      {
+        "uri": "https://www.arweave.net/efgh1234?ext=mp4",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "video"
+  }
 }
