@@ -2,12 +2,12 @@
   "compilerOptions": {
     // target
     "target": "ES2019",
-    "module": "ES2020",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "lib": ["ES2019"],
 
     // build
-    "types": [],
+    "types": ["node"],
     "esModuleInterop": true,
     "preserveConstEnums": true,
     "skipLibCheck": true,

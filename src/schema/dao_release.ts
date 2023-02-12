@@ -9,7 +9,7 @@ export type DAOConfig = {
   governance: {
     address: string;
     description: string;
-    "creator-nickname": string;
-    "logo-url": string;
+    creatorNickname: string;
+    logoURL: string;
   };
 };
