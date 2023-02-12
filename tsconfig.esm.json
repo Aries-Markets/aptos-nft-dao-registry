@@ -3,7 +3,7 @@
     // target
     "target": "ES2019",
     "module": "ES2020",
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "lib": ["ES2019"],
 
     // build
@@ -32,7 +32,9 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "noEmit": true
+
+    "outDir": "dist/esm/"
   },
-  "include": ["./src/", "./registry"]
+  "include": ["./src"],
+  "exclude": ["./src/scripts/*"]
 }

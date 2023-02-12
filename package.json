@@ -1,24 +1,39 @@
 {
-  "name": "aptos-nft-dao-registry",
+  "name": "@aries-markets/aptos-nft-dao-registry",
   "version": "0.0.1",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Registry of Aptos NFT DAOs.",
   "scripts": {
+    "build": "tsc -P tsconfig.build.json && tsc -P tsconfig.esm.json",
     "generate": "pnpm generate:dao",
-    "generate:dao": "ts-node src/scripts/generate_dao.ts"
+    "generate:dao": "ts-node src/scripts/generate_dao.ts",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix --cache"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "keywords": [
+    "aptos",
+    "nft-dao",
+    "governance",
+    "registry"
+  ],
+  "author": "Aries Markets Team",
+  "license": "Apache License 2.0",
   "dependencies": {
     "lodash": "^4.17.21",
     "safe-stable-stringify": "^2.4.2",
     "toml": "^3.0.0",
+    "tslib": "^2.5.0",
     "zod": "^3.20.6"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.191",
     "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
   },

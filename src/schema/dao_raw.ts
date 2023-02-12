@@ -12,12 +12,12 @@ export const DAOSchemaRaw = zod.object({
   }),
   links: zod
     .record(
-      zod.string().or(
-        zod.object({
+      zod
+        .object({
           label: zod.string(),
           url: zod.string(),
         })
-      )
+        .or(zod.string())
     )
     .optional(),
 });
