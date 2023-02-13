@@ -11,5 +11,6 @@ export type DAOConfig = {
     description: string;
     creatorNickname: string;
     logoURL: string;
+    bgImgURL?: string;
   };
 };

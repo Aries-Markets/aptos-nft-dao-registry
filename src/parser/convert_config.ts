@@ -11,6 +11,7 @@ export const convertDAOConfig = async (
       description: rawConf.governance.description,
       logoURL: rawConf.governance["logo-url"],
       creatorNickname: rawConf.governance["creator-nickname"],
+      bgImgURL: rawConf.governance["bg-img-url"],
     },
     links: rawConf.links
       ? mapValues(rawConf.links, (link, key) => {

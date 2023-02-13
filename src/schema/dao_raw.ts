@@ -9,6 +9,7 @@ export const DAOSchemaRaw = zod.object({
     description: zod.string().max(128, `DAO description too long.`),
     "creator-nickname": zod.string(),
     "logo-url": zod.string(),
+    "bg-img-url": zod.string().optional(),
   }),
   links: zod
     .record(

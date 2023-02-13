@@ -3,6 +3,7 @@ address = "0xf1702eb3bcd85119d75a9f36e2b307d3e1b3a048768ede1b278f343b93b0dd8c"
 description = "Testing DAO of aries."
 creator-nickname = ""
 logo-url = "DAO governance logo url."
+bg-img-url = "Backgroup image url for DAO Page on OrderDAO."
 
 [links]
 dao-homepage = ""

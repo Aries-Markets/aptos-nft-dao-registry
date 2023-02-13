@@ -1,6 +1,6 @@
 {
   "name": "@aries-markets/aptos-nft-dao-registry",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Registry of Aptos NFT DAOs.",
   "scripts": {
     "build": "tsc -P tsconfig.build.json && tsc -P tsconfig.esm.json",
