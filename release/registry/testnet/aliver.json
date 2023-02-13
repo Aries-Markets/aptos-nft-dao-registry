@@ -1,0 +1,22 @@
+{
+  "governance": {
+    "address": "0xa884f7a49a945179d7e48e1fb7b685b75ac6100c1fe814f46c153f7865e73a9f",
+    "creatorNickname": "aliver",
+    "description": "Aliver's DAO",
+    "logoURL": "https://ipfs.bluemove.io/uploads/aptos-dragons/logo.webp"
+  },
+  "links": {
+    "dao-homepage": {
+      "label": "Dao Homepage",
+      "url": "https://ariesmarkets.xyz/"
+    },
+    "discord": {
+      "label": "Discord",
+      "url": "https://discord.gg/ariesmarkets"
+    },
+    "twitter": {
+      "label": "Twitter",
+      "url": "https://twitter.com/AriesMarkets"
+    }
+  }
+}
