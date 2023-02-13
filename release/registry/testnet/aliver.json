@@ -1,6 +1,7 @@
 {
   "governance": {
     "address": "0xa884f7a49a945179d7e48e1fb7b685b75ac6100c1fe814f46c153f7865e73a9f",
+    "bgImgURL": "https://ipfs.bluemove.io/uploads/aptos-dragons/logo.webp",
     "creatorNickname": "aliver",
     "description": "Aliver's DAO",
     "logoURL": "https://ipfs.bluemove.io/uploads/aptos-dragons/logo.webp"
