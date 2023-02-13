@@ -52,4 +52,5 @@ generateDAO()
   })
   .catch((reason) => {
     console.error(reason);
+    process.exit(1);
   });
