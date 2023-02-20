@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "governance": {
+      "address": "0x7d0d47458eb1a35a94c7d41d7457becb9d6da49b5d8f7a9820d4fd1f677c6062",
+      "bgImgURL": "https://i.seadn.io/gcs/files/89f0cd4457af5632e66fb44bf43309cd.png?auto=format&w=2048",
+      "creatorNickname": "Pudgy Penguins",
+      "description": "Pudgy Penguins",
+      "logoURL": "https://i.seadn.io/gae/yNi-XdGxsgQCPpqSio4o31ygAV6wURdIdInWRcFIl46UjUQ1eV7BEndGe8L661OoG-clRi7EgInLX4LPu9Jfw4fq0bnVYHqg7RFi?auto=format&w=2048"
+    },
+    "links": {
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.com/invite/aptoslabs"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/aptoslabs/"
+      }
+    }
+  }
+]
