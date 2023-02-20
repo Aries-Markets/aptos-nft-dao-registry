@@ -1,0 +1,10 @@
+[governance]
+address = "0x7d0d47458eb1a35a94c7d41d7457becb9d6da49b5d8f7a9820d4fd1f677c6062"
+description = "Pudgy Penguins"
+creator-nickname = "Pudgy Penguins"
+logo-url = "https://i.seadn.io/gae/yNi-XdGxsgQCPpqSio4o31ygAV6wURdIdInWRcFIl46UjUQ1eV7BEndGe8L661OoG-clRi7EgInLX4LPu9Jfw4fq0bnVYHqg7RFi?auto=format&w=2048"
+bg-img-url = "https://i.seadn.io/gcs/files/89f0cd4457af5632e66fb44bf43309cd.png?auto=format&w=2048"
+
+[links]
+twitter = "https://twitter.com/aptoslabs/"
+discord = "https://discord.com/invite/aptoslabs"
