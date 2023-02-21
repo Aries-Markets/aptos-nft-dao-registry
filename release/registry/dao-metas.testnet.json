@@ -1,36 +1,17 @@
 [
   {
     "governance": {
-      "address": "0xa884f7a49a945179d7e48e1fb7b685b75ac6100c1fe814f46c153f7865e73a9f",
-      "bgImgURL": "https://ipfs.bluemove.io/uploads/aptos-dragons/logo.webp",
-      "creatorNickname": "aliver",
-      "description": "Aliver's DAO",
-      "logoURL": "https://ipfs.bluemove.io/uploads/aptos-dragons/logo.webp"
+      "address": "0x25a1faff50a9df85a9976f533f61069d8f83d0f65941b38a7151561738db11fa",
+      "bgImgURL": "https://files.slack.com/files-tmb/T02BEAB9XEC-F04QVLQ9NEM-f0ec402935/photo_2023-02-21_13.37.13_720.jpg",
+      "creatorNickname": "Lemur Lounge",
+      "description": "Lemur Lounge",
+      "logoURL": "https://files.slack.com/files-pri/T02BEAB9XEC-F04QH1KJM1Q/photo_2023-02-21_13.32.23.jpeg"
     },
     "links": {
       "dao-homepage": {
         "label": "Dao Homepage",
         "url": "https://ariesmarkets.xyz/"
       },
-      "discord": {
-        "label": "Discord",
-        "url": "https://discord.gg/ariesmarkets"
-      },
-      "twitter": {
-        "label": "Twitter",
-        "url": "https://twitter.com/AriesMarkets"
-      }
-    }
-  },
-  {
-    "governance": {
-      "address": "0xf1702eb3bcd85119d75a9f36e2b307d3e1b3a048768ede1b278f343b93b0dd8c",
-      "bgImgURL": "https://pbs.twimg.com/profile_banners/1552619129764560896/1670539937/1500x500",
-      "creatorNickname": "Aries Markets",
-      "description": "Testing DAO of Aries Markets.",
-      "logoURL": "https://pbs.twimg.com/profile_images/1617566565884477462/T3ik8G9u_400x400.jpg"
-    },
-    "links": {
       "discord": {
         "label": "Discord",
         "url": "https://discord.gg/ariesmarkets"
