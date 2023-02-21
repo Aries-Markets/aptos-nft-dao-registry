@@ -4,13 +4,18 @@ import { Network } from "../schema/enum";
 import { jsonStringify, notEmpty } from "../util/util";
 import { DAOSchemaRaw } from "../schema/dao_raw";
 import { convertDAOConfig } from "../parser/convert_config";
+import path from "path";
 
 export const generateDAOMetas = async (network: Network) => {
   const daoDir = `${__dirname}/../../registry/${network}`;
   const outDir = `${__dirname}/../../release/registry/${network}`;
 
   const daos = await fs.readdir(daoDir);
+
   await fs.mkdir(outDir, { recursive: true });
+  for (const file of await fs.readdir(outDir)) {
+    await fs.unlink(path.join(outDir, file));
+  }
 
   const governors = await Promise.all(
     daos.map(async (dao) => {
