@@ -4,8 +4,13 @@ Registry of Aptos NFT DAOs.
 
 # Adding a new DAO
 
-Add a new `dao.toml` to `registry/<network>/<dao>/`.
+Add DAO images to `release/images/`.
+For better distinguish, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names. (eg. `release/images/lemur-lounge-logo-testnet.jpeg`)
+
+Add a new `dao.toml` to `registry/[network]/[dao]/`.
 `registry/dao_template.toml` can be used as a template.
+
+Use the images you added above as DAO's image URLs, the URL format should follow `https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/[ImageFileName]`. You can also use images from other image hosting service.
 
 Note:
 
