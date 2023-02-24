@@ -40,5 +40,24 @@
         "url": "https://twitter.com/aptoslabs/"
       }
     }
+  },
+  {
+    "governance": {
+      "address": "0x585ebcde6a9c00de22a4b5f392f4b21a173b772e5d8111269f81507303421a7f",
+      "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/spooks-bg-testnet.webp",
+      "creatorNickname": "Spooks",
+      "description": "Spooks",
+      "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/spooks-logo-testnet.jpg"
+    },
+    "links": {
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.com/invite/aptoslabs"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/aptoslabs/"
+      }
+    }
   }
 ]
