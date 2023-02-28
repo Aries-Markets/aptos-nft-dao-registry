@@ -1,6 +1,29 @@
 [
   {
     "governance": {
+      "address": "0x76ddff80ef6f901b3efa326d25a43a60627863158ac8471830585183b71dcd30",
+      "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-bg-testnet.jpeg",
+      "creatorNickname": "Lemur Lounge",
+      "description": "Lemur Lounge",
+      "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-logo-testnet.jpeg"
+    },
+    "links": {
+      "dao-homepage": {
+        "label": "Dao Homepage",
+        "url": "https://www.TheLemurLounge.com"
+      },
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.gg/ariesmarkets"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/LemurLoungeNFT"
+      }
+    }
+  },
+  {
+    "governance": {
       "address": "0x7d0d47458eb1a35a94c7d41d7457becb9d6da49b5d8f7a9820d4fd1f677c6062",
       "bgImgURL": "https://i.seadn.io/gae/ouzjfA0LotbHC92vuDph9JDeg7Z4ZFo12Pr9GJpfSAZSrnXDOubJn0eTvinwzUTPsWhnLLq5ocjcDSrpNV0_MYIjueVJrzFlE6p0?auto=format&w=2048",
       "creatorNickname": "TheIglooCompany",
