@@ -1,0 +1,11 @@
+[governance]
+address = "0x76ddff80ef6f901b3efa326d25a43a60627863158ac8471830585183b71dcd30"
+description = "Lemur Lounge"
+creator-nickname = "Lemur Lounge"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-logo-testnet.jpeg"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-bg-testnet.jpeg"
+
+[links]
+dao-homepage = "https://www.TheLemurLounge.com"
+twitter = "https://twitter.com/LemurLoungeNFT"
+discord = "https://discord.gg/ariesmarkets"
