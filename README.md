@@ -10,23 +10,32 @@ Registry of Aptos NFT DAOs.
 - Save your DAO address when the creation succeed. It looks like as below:
   ![DAO Created Successfully](./release/images/demo/create_dao_successfully.png)
 
-Note: It will not appear in the OrderDAO's list immediately after you create it successfully. You need to add the DAO Regsitry for the off-chain information.
+Note: It will not appear in the OrderDAO's list immediately after you create it successfully. You need to add the DAO Registry for the off-chain information.
 
-## 2. Upload DAO Images
+## 2. Add Registry
 
-Add DAO images(eg. Logo, Backgroud Banner) to folder `release/images/`.
-For better distinguish, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names. (eg. `release/images/lemur-lounge-logo-testnet.jpeg`)
+Clone this repo, checkout to a new branch to add registry.
 
-## 3. Add DAO Registry
+```bash
+git clone https://github.com/Aries-Markets/aptos-nft-dao-registry.git
+git checkout -b [branch_name]
+```
+
+### 1. Upload DAO Images
+
+- Add DAO images(eg. Logo, Backgroud Banner) to folder `release/images/`.
+  For better distinguish, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names. (eg. `release/images/lemur-lounge-logo-testnet.jpeg`)
+
+### 2. Add DAO Registry
 
 - Add a new `dao.toml` to folder `registry/[network]/[dao]/`.
   `registry/dao_template.toml` can be used as a template.
 
-- Use the images you uploaded above as DAO's image URLs, the URL format should follow `https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/[Your image file name]`. You can also use images from other image hosting service.
+- Use the images you uploaded above as DAO's image URLs, the URL format should follow `https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/[Your Image File Name]`. You can also use images from other image hosting service.
 
 - Then, you have completed the registry, pushed the changes to the remote branch and created a pull request, waiting for the PR to be merged into the main branch.
 
-When the merge is complete, it will take about five minutes to display Your DAO in the OrderDAO's list.
+When the merge is complete, it will take **about five minutes** to display Your DAO in the OrderDAO's list.
 
 Note:
 
