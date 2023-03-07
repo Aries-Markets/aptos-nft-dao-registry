@@ -1,7 +1,7 @@
 {
   "governance": {
     "address": "0x1965435479d04eafbcad17c9c9b79d28f7887b2df18ff8f0dd1d189139e84e09",
-    "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/spooks-bg-testnet.png",
+    "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/Spooks_banner_OrderDAO.png",
     "creatorNickname": "Spooks",
     "description": "Spooks",
     "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/spooks-logo-testnet.png"
