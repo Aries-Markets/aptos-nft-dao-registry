@@ -24,25 +24,6 @@
   },
   {
     "governance": {
-      "address": "0x7d0d47458eb1a35a94c7d41d7457becb9d6da49b5d8f7a9820d4fd1f677c6062",
-      "bgImgURL": "https://i.seadn.io/gae/ouzjfA0LotbHC92vuDph9JDeg7Z4ZFo12Pr9GJpfSAZSrnXDOubJn0eTvinwzUTPsWhnLLq5ocjcDSrpNV0_MYIjueVJrzFlE6p0?auto=format&w=2048",
-      "creatorNickname": "TheIglooCompany",
-      "description": "Pudgy Penguins",
-      "logoURL": "https://i.seadn.io/gae/H-eyNE1MwL5ohL-tCfn_Xa1Sl9M9B4612tLYeUlQubzt4ewhr4huJIR5OLuyO3Z5PpJFSwdm7rq-TikAh7f5eUw338A2cy6HRH75?auto=format&w=384"
-    },
-    "links": {
-      "discord": {
-        "label": "Discord",
-        "url": "https://discord.com/invite/aptoslabs"
-      },
-      "twitter": {
-        "label": "Twitter",
-        "url": "https://twitter.com/aptoslabs/"
-      }
-    }
-  },
-  {
-    "governance": {
       "address": "0x1965435479d04eafbcad17c9c9b79d28f7887b2df18ff8f0dd1d189139e84e09",
       "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/spooks-bg-testnet.png",
       "creatorNickname": "Spooks",
