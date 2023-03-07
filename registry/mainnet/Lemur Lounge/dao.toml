@@ -1,5 +1,5 @@
 [governance]
-address = "0x76ddff80ef6f901b3efa326d25a43a60627863158ac8471830585183b71dcd30"
+address = "0x3539fd45c76d1e1a88d9517344601886c4ee0ea349fa136005654c6a07f5b9b0"
 description = "Lemur Lounge"
 creator-nickname = "Lemur Lounge"
 logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-logo-testnet.jpeg"
