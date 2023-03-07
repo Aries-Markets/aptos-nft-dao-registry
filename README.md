@@ -24,14 +24,26 @@ git checkout -b [branch_name]
 ### 1. Upload DAO Images
 
 - Add DAO images(eg. Logo, Backgroud Banner) to folder `release/images/`.
-  For better distinguish, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names. (eg. `release/images/lemur-lounge-logo-testnet.jpeg`)
+  For better distinguish, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names.
+
+```bash
+# The Image Example:
+$ ls -l release/images/
+-rw-r--r--  1 Feb 21 14:41 lemur-lounge-bg-testnet.jpeg
+-rw-r--r--  1 Feb 21 14:42 lemur-lounge-logo-testnet.jpeg
+```
 
 ### 2. Add DAO Registry
 
-- Add a new `dao.toml` to folder `registry/[network]/[dao]/`.
+- Add a new `dao.toml` to folder `registry/[network]/[DAO Name]/`.
   `registry/dao_template.toml` can be used as a template.
 
 - Use the images you uploaded above as DAO's image URLs, the URL format should follow `https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/[Your Image File Name]`. You can also use images from other image hosting service.
+
+```bash
+# Image URL Example:
+https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-logo-testnet.jpeg
+```
 
 - Then, you have completed the registry, pushed the changes to the remote branch and created a pull request, waiting for the PR to be merged into the main branch.
 
