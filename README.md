@@ -7,14 +7,14 @@ Registry of Aptos NFT DAOs.
 ## 1. Create Your DAO on [Order DAO](https://order.ariesmarkets.xyz)
 
 - Complete the form to create a DAO.
-- Save your DAO address when the creation succeed. It looks like as below:
+- Save your DAO address when the creation succeed. It looks as below:
   ![DAO Created Successfully](./release/images/demo/create_dao_successfully.png)
 
 Note: It will not appear in the OrderDAO's list immediately after you create it successfully. You need to add the DAO Registry for the off-chain information.
 
 ## 2. Add Registry
 
-Fork this repo and clone the forked to your local, checkout to a new branch to add registry.
+Fork this repo and clone it to your local, checkout to a new branch to add registry.
 
 ```bash
 git clone https://github.com/[your github name]/aptos-nft-dao-registry.git
@@ -24,7 +24,7 @@ git checkout -b [branch_name]
 ### 1. Upload DAO Images
 
 - Add DAO images(eg. Logo, Backgroud Banner) to folder `release/images/`.
-  For better distinguish, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names.
+  For better distinction, it is recommended to use `[DAO Name]-[usage]-[network].jpeg/png` format for image names.
 
 ```bash
 # The Image Example:
@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/rele
 
 - Then, you have completed the registry, pushed the changes to the remote branch and created a pull request onto original repo, waiting for the PR to be merged into the main branch.
 
-When the merge is complete, it will take **about five minutes** to display Your DAO in the OrderDAO's list.
+When the merge is complete, it will take **about five minutes** to display the new DAO in the OrderDAO's list.
 
 Note:
 
