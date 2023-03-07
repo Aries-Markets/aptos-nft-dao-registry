@@ -14,10 +14,10 @@ Note: It will not appear in the OrderDAO's list immediately after you create it 
 
 ## 2. Add Registry
 
-Clone this repo, checkout to a new branch to add registry.
+Fork this repo and clone the forked to your local, checkout to a new branch to add registry.
 
 ```bash
-git clone https://github.com/Aries-Markets/aptos-nft-dao-registry.git
+git clone https://github.com/[your github name]/aptos-nft-dao-registry.git
 git checkout -b [branch_name]
 ```
 
@@ -45,7 +45,7 @@ $ ls -l release/images/
 https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-logo-testnet.jpeg
 ```
 
-- Then, you have completed the registry, pushed the changes to the remote branch and created a pull request, waiting for the PR to be merged into the main branch.
+- Then, you have completed the registry, pushed the changes to the remote branch and created a pull request onto original repo, waiting for the PR to be merged into the main branch.
 
 When the merge is complete, it will take **about five minutes** to display Your DAO in the OrderDAO's list.
 
