@@ -24,6 +24,25 @@
   },
   {
     "governance": {
+      "address": "0x55b1cdb53a31f2480b3050ca45840aa701255edf18dbce13e0b8e95a85e517a4",
+      "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/mavrik_banner.jpeg",
+      "creatorNickname": "Mavrik",
+      "description": "Mavrik",
+      "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/mavrik_logo.jpeg"
+    },
+    "links": {
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.gg/KGp7GfZrXK"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/MavrikDAO"
+      }
+    }
+  },
+  {
+    "governance": {
       "address": "0x1965435479d04eafbcad17c9c9b79d28f7887b2df18ff8f0dd1d189139e84e09",
       "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/Spooks_banner_OrderDAO.png",
       "creatorNickname": "Spooks",
