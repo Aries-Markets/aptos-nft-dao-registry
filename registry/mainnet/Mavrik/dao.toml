@@ -1,0 +1,10 @@
+[governance]
+address = "0x55b1cdb53a31f2480b3050ca45840aa701255edf18dbce13e0b8e95a85e517a4"
+description = "Mavrik"
+creator-nickname = "Mavrik"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/mavrik_logo.jpeg"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/mavrik_banner.jpeg"
+
+[links]
+twitter = "https://twitter.com/MavrikDAO"
+discord = "https://discord.gg/KGp7GfZrXK"
