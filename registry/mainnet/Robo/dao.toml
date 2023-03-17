@@ -1,0 +1,11 @@
+[governance]
+address = "0x83de318a88b3213b0c43cad24424cee2ff6e7fc7afef98de63350c66648bdaa9"
+description = "AptoRobos"
+creator-nickname = "aptorobos"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/robo_logo.jpeg"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/robo_bg.jpeg"
+
+[links]
+dao-homepage = "https://www.aptorobos.com/"
+twitter = "https://twitter.com/AptoRobos"
+discord = "https://discord.gg/aptorobos"
