@@ -4,7 +4,28 @@ import { Network } from "../schema/enum";
 import { jsonStringify, notEmpty } from "../util/util";
 import { DAOSchemaRaw } from "../schema/dao_raw";
 import { convertDAOConfig } from "../parser/convert_config";
+import { SELFT_IMAGE_DIR, SELF_STATIC_URL_PREFIX } from "../schema/enum";
+import { existsSync } from "fs";
 import path from "path";
+
+function checkImageURL(imageUrl: string) {
+  if (!imageUrl.startsWith(SELF_STATIC_URL_PREFIX)) {
+    return;
+  }
+
+  const selfRef = new URL(SELFT_IMAGE_DIR, SELF_STATIC_URL_PREFIX).href;
+
+  if (!imageUrl.startsWith(selfRef)) {
+    throw Error(`Image url should follow format: ${selfRef}/[Image File Name]`);
+  }
+
+  const filePath = imageUrl.substring(imageUrl.indexOf(SELFT_IMAGE_DIR));
+  const fileFullPath = path.resolve(`${__dirname}/../../${filePath}`);
+
+  if (!existsSync(fileFullPath)) {
+    throw Error(`Image file not exists: ${filePath}`);
+  }
+}
 
 export const generateDAOMetas = async (network: Network) => {
   const daoDir = `${__dirname}/../../registry/${network}`;
@@ -28,6 +49,8 @@ export const generateDAOMetas = async (network: Network) => {
 
       try {
         const daoRaw = DAOSchemaRaw.parse(rawConfig);
+        checkImageURL(daoRaw.governance["logo-url"]);
+        checkImageURL(daoRaw.governance["bg-img-url"]);
         const config = await convertDAOConfig(daoRaw);
         await fs.writeFile(`${outDir}/${dao}.json`, jsonStringify(config));
         return config;
