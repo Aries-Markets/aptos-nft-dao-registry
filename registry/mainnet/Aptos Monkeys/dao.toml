@@ -1,0 +1,11 @@
+[governance]
+address = "0xba7898da9dc64c6ac86d4ab01af6a62ab2ae6f2185683903517e6d3f6de9bcc0"
+description = "Aptos Monkeys - Jungle DAO"
+creator-nickname = "Aptos Monkeys"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptos-monkeys-logo-mainnet.png"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptos-monkeys-bg-mainnet.png"
+
+[links]
+dao-homepage = "https://www.aptosmonkeys.club/"
+twitter = "https://twitter.com/AptosMonkeys"
+discord = "https://discord.gg/sFfe75BHQ3"
