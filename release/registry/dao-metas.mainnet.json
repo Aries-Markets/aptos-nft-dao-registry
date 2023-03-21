@@ -1,6 +1,29 @@
 [
   {
     "governance": {
+      "address": "0xba7898da9dc64c6ac86d4ab01af6a62ab2ae6f2185683903517e6d3f6de9bcc0",
+      "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptos-monkeys-bg-mainnet.png",
+      "creatorNickname": "Aptos Monkeys",
+      "description": "Aptos Monkeys - Jungle DAO",
+      "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptos-monkeys-logo-mainnet.png"
+    },
+    "links": {
+      "dao-homepage": {
+        "label": "Dao Homepage",
+        "url": "https://www.aptosmonkeys.club/"
+      },
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.gg/sFfe75BHQ3"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/AptosMonkeys"
+      }
+    }
+  },
+  {
+    "governance": {
       "address": "0x3539fd45c76d1e1a88d9517344601886c4ee0ea349fa136005654c6a07f5b9b0",
       "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/lemur-lounge-bg-testnet.jpeg",
       "creatorNickname": "Lemur Lounge",
