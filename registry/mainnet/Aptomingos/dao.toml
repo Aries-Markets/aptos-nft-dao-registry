@@ -3,7 +3,7 @@ address = "0xafd015edc6157eae49c00c53c2535c3ddf4651136fdbf524e4f41a2c165bd5b3"
 description = "Aptomingos"
 creator-nickname = "Aptomingos"
 logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptomingos_logo.png"
-bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptomingos_bg.jpeg"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptomingos_bg.png"
 
 [links]
 dao-homepage = "https://aptomingos.io/"
