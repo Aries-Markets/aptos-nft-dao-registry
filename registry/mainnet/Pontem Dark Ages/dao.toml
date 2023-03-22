@@ -1,0 +1,12 @@
+[governance]
+address = "0x9448263330aebb780260241672ff5e5aa9f3890825f1213974f3a9fd8d0bb564"
+description = "Pontem Dark Ages"
+creator-nickname = "Pontem Dark Ages"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/pontem_dark_ages_logo.png"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/pontem_dark_ages_bg.png"
+
+
+[links]
+dao-homepage = "https://pontem.network/"
+twitter = "https://twitter.com/PontemNetwork"
+discord = "https://discord.gg/44QgPFHYqs"
