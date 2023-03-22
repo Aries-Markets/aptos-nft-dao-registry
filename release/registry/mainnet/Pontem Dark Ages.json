@@ -1,0 +1,23 @@
+{
+  "governance": {
+    "address": "0x9448263330aebb780260241672ff5e5aa9f3890825f1213974f3a9fd8d0bb564",
+    "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/pontem_dark_ages_bg.png",
+    "creatorNickname": "Pontem Dark Ages",
+    "description": "Pontem Dark Ages",
+    "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/pontem_dark_ages_logo.png"
+  },
+  "links": {
+    "dao-homepage": {
+      "label": "Dao Homepage",
+      "url": "https://pontem.network/"
+    },
+    "discord": {
+      "label": "Discord",
+      "url": "https://discord.gg/44QgPFHYqs"
+    },
+    "twitter": {
+      "label": "Twitter",
+      "url": "https://twitter.com/PontemNetwork"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "governance": {
+    "address": "0x3b3688ac594896e9963c4654da2f69b2c5c0455dfee65337ff319f0f61e22215",
+    "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/pontem_space_pirates_bg.png",
+    "creatorNickname": "Pontem Space Pirates",
+    "description": "Pontem Space Pirates",
+    "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/pontem_space_pirates_logo.png"
+  },
+  "links": {
+    "dao-homepage": {
+      "label": "Dao Homepage",
+      "url": "https://pontem.network/"
+    },
+    "discord": {
+      "label": "Discord",
+      "url": "https://discord.gg/44QgPFHYqs"
+    },
+    "twitter": {
+      "label": "Twitter",
+      "url": "https://twitter.com/PontemNetwork"
+    }
+  }
+}
