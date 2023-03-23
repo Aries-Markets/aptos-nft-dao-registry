@@ -1,6 +1,29 @@
 [
   {
     "governance": {
+      "address": "0xa4fb5a3b2b8832a3b6b05a83082187391267c1a95cc6c5650a0eddd0325b53b6",
+      "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptoads-bg-mainnet.jpeg",
+      "creatorNickname": "Aptoads",
+      "description": "Aptoads",
+      "logoURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptoads-logo-mainnet.png"
+    },
+    "links": {
+      "dao-homepage": {
+        "label": "Dao Homepage",
+        "url": "https://aptoads.io"
+      },
+      "discord": {
+        "label": "Discord",
+        "url": "https://discord.com/invite/jmt7vv9Wmg"
+      },
+      "twitter": {
+        "label": "Twitter",
+        "url": "https://twitter.com/aptoads"
+      }
+    }
+  },
+  {
+    "governance": {
       "address": "0xafd015edc6157eae49c00c53c2535c3ddf4651136fdbf524e4f41a2c165bd5b3",
       "bgImgURL": "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptomingos_bg.png",
       "creatorNickname": "Aptomingos",
