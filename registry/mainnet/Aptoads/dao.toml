@@ -1,0 +1,11 @@
+[governance]
+address = "0xa4fb5a3b2b8832a3b6b05a83082187391267c1a95cc6c5650a0eddd0325b53b6"
+description = "Aptoads"
+creator-nickname = "Aptoads"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptoads-logo-mainnet.jpeg"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/aptoads-bg-mainnet.jpeg"
+
+[links]
+dao-homepage = "https://aptoads.io"
+twitter = "https://twitter.com/aptoads"
+discord = "https://discord.com/invite/jmt7vv9Wmg"
