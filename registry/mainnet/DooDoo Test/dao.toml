@@ -1,0 +1,11 @@
+[governance]
+address = "0x6fa796d4edc7202f23ffe7b33127a026a735324a9bfb5ff303b4f787d4bfb271"
+description = "We are all sh*tcoins"
+creator-nickname = "DooDoo OG (test)"
+logo-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/doodoo_og_test_bg_mainnet.jpeg"
+bg-img-url = "https://raw.githubusercontent.com/Aries-Markets/aptos-nft-dao-registry/main/release/images/doodoo_og_test_logo_mainnet.svg"
+
+[links]
+dao-homepage = "https://doodoo.io/"
+twitter = "https://twitter.com/doodoocoin"
+discord = "https://discord.com/invite/44QgPFHYqs"
